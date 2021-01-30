@@ -1,34 +1,73 @@
-input {
-    border: 2px solid black;
-    border-radius: 8px;
-    color: black;
-    padding: 10px 20px;
-    width: 180px;
+h1 {
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    transition-duration: 0.4s;
-    box-shadow: 0 2px #404056;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+div #timer {
+    color: rgb(255, 0, 0);
+    background-color: black;
+    display: block;
+    margin: auto;
+    width: 10%;
+    border: 3px solid green;
+    border-radius: 10px;
+}
+div #answer {
+    width: 20%;
+    height: 30px;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    border: 2px solid #9999C9;
+    border-radius: 10px;
     outline: none;
-    vertical-align: middle;
-}
-input:hover {
-    background-color: #9999C9;
-    color: white;
-}
-input:active {
-    background-color: #9999C9;
-    box-shadow: 2px #5C5C7C;
-    transform: translateY(4px);
 }
 body {
     background-color: hsl(240, 31%, 69%);
 }
-h1 {
+button {
+    border: 2px solid black;
+    border-radius: 8px;
+    color: black;
+    padding: 10px 20px;
+    width: 200px;
     text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    box-shadow: 0 2px #404056;
+    outline: none;
+    position: relative;
+    display: block;
+    margin: auto;
 }
-div {
+button:hover {
+    background-color: #9999C9;
+    color: white;
+}
+button:active {
+    background-color: #9999C9;
+    box-shadow: 2px #5C5C7C;
+    transform: translateY(4px);
+}
+div.btns {
     background-color: black;
-    height: 50px;
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    border: 2px solid orange;
+    border-radius: 20px;
+}
+#res:hover {
+    background-color: red;
+}
+div.leaders {
+    display: block;
+    margin: auto;
+    width: 30%;
+    background-color: black;
 }
